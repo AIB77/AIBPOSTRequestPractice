@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <EditText
+      android:id="@+id/editTextName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter Name"
+      android:inputType="text" />
+
+  <EditText
+      android:id="@+id/editTextLocation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter Location"
+      android:inputType="text"
+
+      tools:ignore="TouchTargetSizeCheck" />
+
+
+  <Button
+      android:id="@+id/buttonSave"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="save" />
+
+  <Button
+      android:id="@+id/buttonView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="viewusers"
+      android:text="view"></Button>
+
+
+</LinearLayout>
